@@ -14,7 +14,7 @@ Based on my engineering thesis. Notebooks are commented in Polish.
 ## Pipeline
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[football-data.co.uk<br/>100 CSV files] --> B[01 combine & clean]
     R[teams_stadiums.csv<br/>lat/lon per club] --> B
     B --> C[(matches_clean.csv)]
